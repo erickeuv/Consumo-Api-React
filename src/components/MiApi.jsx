@@ -108,7 +108,7 @@ const MiApi = ({ search }) => {
 
       {/* Mostrar botón para cargar más Pokémon */}
       {!loading && (
-        <Button onClick={handleLoadMore} disabled={loading}>
+        <Button className="ButtonLoad" onClick={handleLoadMore} disabled={loading}>
           Cargar más
         </Button>
       )}
